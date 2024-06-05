@@ -32,10 +32,10 @@ function Header(props){
         
         <ul className="navbar-nav navbar-nav-right">
           <li className="nav-item nav-date dropdown">
-            <a className="nav-link d-flex justify-content-center align-items-center text-white">
+            {/* <a className="nav-link d-flex justify-content-center align-items-center text-white">
               <h6 className="date mb-0">Today : {months[(new Date()).getMonth()]} {(new Date()).getDate()}</h6>
               <i className="typcn typcn-calendar"></i>
-            </a>
+            </a> */}
           </li>
           <li className="nav-item dropdown mr-0">
             <a className="nav-link btn count-indicator dropdown-toggle d-flex align-items-center justify-content-center text-white" id="notificationDropdown" data-toggle="tooltip" data-placement="top" title="Logout" onClick={logout}>

@@ -5,7 +5,7 @@ import Login from './Pages/Login/Login';
 import Layout from './Layout';
 import { NotificationContainer } from 'react-notifications';
 import States from './Pages/States/States';
-import District from './Pages/District/DIstrict';
+// import District from './Pages/District/DIstrict';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
           <Route element= {<Login/>} path="/" />
           <Route element = {<Login/>} path="/login" />
           <Route element= {<Layout><States/></Layout>} path="/farmers" />
-          <Route element={<Layout><District /></Layout>} path="/district" />
+          {/* <Route element={<Layout><District /></Layout>} path="/district" /> */}
         </Routes>
         <NotificationContainer/>
       </HashRouter>
