@@ -15,11 +15,7 @@ const Layout = ({children}) => {
                     <div className="content-wrapper">
                         <div className="row" style={{paddingTop : '80px'}}>
                             <div className="col-12 grid-margin">
-                                <div className={`${children === '<Profile/>' ? '' : 'card'}`}>
-                                    <div className="card-body">
-                                    {children}
-                                    </div>
-                                </div>
+                                {children}
                             </div>
                         </div>
                     </div>
